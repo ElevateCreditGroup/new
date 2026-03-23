@@ -216,7 +216,118 @@ export default function Home() {
           </div>
         </div>
       </section>
+<section className="relative z-10 px-6 py-16 md:px-12 bg-black/40">
+  <div className="mx-auto max-w-5xl text-center">
+    <h2 className="text-3xl md:text-4xl mb-8" style={{ fontFamily: "Times New Roman, serif" }}>
+      Service Pricing
+    </h2>
 
+    <div className="grid gap-6 md:grid-cols-3">
+      
+      <div className="border border-white/10 p-6 rounded-2xl bg-white/5">
+        <h3 className="text-xl text-cyan-300">Credit Analysis</h3>
+        <p className="mt-3 text-white/70">
+          Full review of credit reports with dispute strategy.
+        </p>
+        <p className="mt-4 text-2xl font-bold">$99</p>
+      </div>
+
+      <div className="border border-white/10 p-6 rounded-2xl bg-white/5">
+        <h3 className="text-xl text-cyan-300">Dispute Assistance</h3>
+        <p className="mt-3 text-white/70">
+          Assistance with disputing inaccurate, unverifiable items.
+        </p>
+        <p className="mt-4 text-2xl font-bold">$149</p>
+      </div>
+
+      <div className="border border-white/10 p-6 rounded-2xl bg-white/5">
+        <h3 className="text-xl text-cyan-300">Premium Package</h3>
+        <p className="mt-3 text-white/70">
+          Full-service credit guidance and ongoing support.
+        </p>
+        <p className="mt-4 text-2xl font-bold">$299</p>
+      </div>
+
+    </div>
+
+    <p className="mt-8 text-sm text-white/50">
+      Pricing is for service assistance and credit education. No specific results are guaranteed.
+    </p>
+  </div>
+</section>
+<section className="relative z-10 px-6 py-16 md:px-12 bg-slate-950/60">
+  <div className="mx-auto max-w-4xl text-sm text-white/70 space-y-6">
+
+    <h2 className="text-2xl text-white">Privacy Policy</h2>
+    <p>
+      Elevate Credit Group respects your privacy. Any personal information submitted through this website,
+      including name, email, phone number, or financial details, is used solely for the purpose of providing
+      credit consultation and services. We do not sell or share your personal information with third parties.
+    </p>
+
+    <h2 className="text-2xl text-white">Terms & Conditions</h2>
+    <p>
+      By using this website, you agree to receive credit education and assistance services.
+      Elevate Credit Group does not guarantee the removal of any specific item or improvement in credit score.
+      All services are performed in compliance with applicable federal and state laws.
+    </p>
+
+    <h2 className="text-2xl text-white">Compliance Disclosure</h2>
+    <p>
+      Under the Fair Credit Reporting Act (FCRA), you have the right to dispute inaccurate information.
+      Under the Credit Repair Organizations Act (CROA), you are entitled to full transparency and written agreements
+      before services begin.
+    </p>
+
+  </div>
+</section>
+<section className="relative z-10 px-6 py-16 md:px-12 bg-black/60">
+  <div className="mx-auto max-w-4xl text-sm text-white/70 space-y-6">
+
+    <h2 className="text-2xl text-white text-center" style={{ fontFamily: "Times New Roman, serif" }}>
+      Client Agreement
+    </h2>
+
+    <p>
+      Elevate Credit Group provides credit education and dispute assistance services to clients seeking to improve the accuracy of their credit reports. We do not guarantee the removal of any specific item or any increase in credit score.
+    </p>
+
+    <p>
+      All services are performed in compliance with applicable federal and state laws, including the Fair Credit Reporting Act (FCRA) and the Credit Repair Organizations Act (CROA).
+    </p>
+
+    <p>
+      By engaging with our services, you acknowledge that results vary based on individual credit profiles and creditor responses. Elevate Credit Group does not make misleading or deceptive claims regarding outcomes.
+    </p>
+
+    <h2 className="text-2xl text-white mt-8 text-center" style={{ fontFamily: "Times New Roman, serif" }}>
+      Cancellation Policy
+    </h2>
+
+    <p>
+      You have the right to cancel your agreement without penalty or obligation within three (3) business days from the date you sign your service agreement, as required by law.
+    </p>
+
+    <p>
+      To cancel services, you must submit a written request via email or other documented communication method. Once cancellation is confirmed, no further services will be performed.
+    </p>
+
+    <p>
+      Elevate Credit Group reserves the right to terminate services if a client fails to comply with requested documentation or engages in fraudulent or misleading activity.
+    </p>
+
+    <h2 className="text-2xl text-white mt-8 text-center" style={{ fontFamily: "Times New Roman, serif" }}>
+      Contact Information
+    </h2>
+
+    <p className="text-center">
+      For questions, support, or cancellation requests, please contact:
+      <br />
+      <span className="text-cyan-300">elevate.credit.group25@gmail.com</span>
+    </p>
+
+  </div>
+</section>
       <footer className="relative z-10 px-6 py-8 text-center text-sm text-white/55 md:px-12">
         © 2026 Elevate Credit Group • Privacy Policy • Terms & Conditions
       </footer>
