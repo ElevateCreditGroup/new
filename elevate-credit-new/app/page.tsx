@@ -1,4 +1,3 @@
-"use client";
 export default function Home() {
   return (
     <main className="min-h-screen overflow-hidden bg-[radial-gradient(circle_at_top,#5b21b6_0%,#1e1b4b_30%,#0f172a_60%,#020617_100%)] text-white">
@@ -6,7 +5,6 @@ export default function Home() {
       <div className="absolute -top-24 -left-24 h-72 w-72 rounded-full bg-cyan-400/20 blur-3xl pointer-events-none" />
       <div className="absolute top-32 right-0 h-80 w-80 rounded-full bg-fuchsia-500/20 blur-3xl pointer-events-none" />
 
-      {/* NAVBAR */}
       <nav className="relative z-10 flex items-center justify-between px-6 py-5 md:px-12">
         <div className="flex items-center gap-3">
           <div className="flex h-11 w-11 items-center justify-center rounded-full border border-yellow-300/40 bg-white/10 text-xl shadow-[0_0_30px_rgba(250,204,21,0.15)]">
@@ -37,15 +35,14 @@ export default function Home() {
           </a>
         </div>
 
-        <button
-       onClick={() => window.open("calendly.com/elevate-credit-group25", "_blank")}
-       className="rounded-full bg-gradient-to-r from-cyan-300 to-fuchsia-400 px-7 py-3 font-semibold text-slate-950"
->
-        Schedule Free Consultation
-      </button>
+        <a
+          href="#intake"
+          className="rounded-full border border-cyan-300/40 bg-white/10 px-5 py-2 text-sm font-semibold text-cyan-200 shadow-[0_0_25px_rgba(34,211,238,0.18)] backdrop-blur-md transition hover:scale-105 hover:bg-cyan-300 hover:text-slate-950"
+        >
+          Book Consultation
+        </a>
       </nav>
 
-      {/* HERO */}
       <section
         id="home"
         className="relative z-10 mx-auto flex max-w-7xl flex-col items-center px-6 pb-20 pt-10 text-center md:px-12"
@@ -70,12 +67,21 @@ export default function Home() {
         </p>
 
         <div className="mt-10 flex flex-wrap items-center justify-center gap-4">
-          <button className="rounded-full bg-gradient-to-r from-cyan-300 to-fuchsia-400 px-7 py-3 font-semibold text-slate-950 shadow-[0_0_35px_rgba(34,211,238,0.35)] transition hover:scale-105">
+          <a
+            href="#intake"
+            className="rounded-full bg-gradient-to-r from-cyan-300 to-fuchsia-400 px-7 py-3 font-semibold text-slate-950 shadow-[0_0_35px_rgba(34,211,238,0.35)] transition hover:scale-105"
+          >
             Schedule Free Consultation
-          </button>
-          <button className="rounded-full border border-white/20 bg-white/10 px-7 py-3 font-semibold text-white backdrop-blur-md transition hover:scale-105 hover:bg-white/20">
+          </a>
+
+          <a
+            href="https://buy.stripe.com/fZuaEQ42E8XudPvfIOcEw01"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="rounded-full border border-white/20 bg-white/10 px-7 py-3 font-semibold text-white backdrop-blur-md transition hover:scale-105 hover:bg-white/20"
+          >
             Pay for Service
-          </button>
+          </a>
         </div>
 
         <div className="mt-14 grid w-full max-w-5xl gap-6 md:grid-cols-3">
@@ -94,7 +100,6 @@ export default function Home() {
         </div>
       </section>
 
-      {/* INTAKE */}
       <section
         id="intake"
         className="relative z-10 mx-auto grid max-w-7xl gap-8 px-6 pb-20 md:grid-cols-[1.05fr_0.95fr] md:px-12"
@@ -114,9 +119,7 @@ export default function Home() {
           </p>
 
           <div className="mt-8 rounded-2xl border border-white/10 bg-slate-950/40 p-6 text-white/80">
-            <p className="mb-4">
-              Click below to fill out your secure client intake form.
-            </p>
+            <p className="mb-4">Click below to fill out your secure client intake form.</p>
 
             <a
               href="https://docs.google.com/forms/d/e/1FAIpQLScl6XoWE3JVTY6XME7OILkYkS-OiccHRb4k4r1y3buqs2oEeA/viewform?usp=publish-editor"
@@ -167,7 +170,6 @@ export default function Home() {
         </div>
       </section>
 
-      {/* POLICIES / LAWS */}
       <section
         id="rights"
         className="relative z-10 border-t border-white/10 bg-slate-950/40 px-6 py-16 md:px-12"
@@ -215,7 +217,6 @@ export default function Home() {
         </div>
       </section>
 
-      {/* FOOTER */}
       <footer className="relative z-10 px-6 py-8 text-center text-sm text-white/55 md:px-12">
         © 2026 Elevate Credit Group • Privacy Policy • Terms & Conditions
       </footer>
