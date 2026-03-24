@@ -73,13 +73,12 @@ export default function Home() {
             Schedule Free Consultation
           </a>
 
-          <a
-            href="https://buy.stripe.com/fZuaEQ42E8XudPvfIOcEw01"
+<a
+            href="https://docs.google.com/forms/d/e/1FAIpQLScl6XoWE3JVTY6XME7OILkYkS-OiccHRb4k4r1y3buqs2oEeA/viewform?usp=publish-editor"
             target="_blank"
-            rel="noopener noreferrer"
-            className="rounded-full border border-white/20 bg-white/10 px-7 py-3 font-semibold text-white backdrop-blur-md transition hover:scale-105 hover:bg-white/20"
+            className="border border-white/20 px-6 py-3 rounded-full"
           >
-            Pay for Service
+            Request Service
           </a>
         </div>
 <section className="text-center py-12 px-6">
