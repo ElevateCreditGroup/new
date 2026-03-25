@@ -74,9 +74,7 @@ export default function Home() {
           </a>
 
 
-</section>
-          </a>
-        </div>
+
 <section className="text-center py-12 px-6">
   <h2 className="text-2xl mb-4">Access Your Credit Report</h2>
   <p className="text-white/70 max-w-xl mx-auto mb-6">
