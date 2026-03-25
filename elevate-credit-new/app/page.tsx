@@ -300,6 +300,13 @@ export default function Home() {
           </div>
         </div>
       </section>
+<section className="relative z-10 px-6 py-16 md:px-12 bg-black/40">
+  <div className="mx-auto max-w-5xl text-center">
+    <h2 className="text-3xl md:text-4xl mb-8" style={{ fontFamily: "Times New Roman, serif" }}>
+      Service Pricing
+    </h2>
+
+    <div className="grid gap-6 md:grid-cols-3">
 
       <div className="border border-white/10 p-6 rounded-2xl bg-white/5">
         <h3 className="text-xl text-cyan-300">Credit Analysis</h3>
