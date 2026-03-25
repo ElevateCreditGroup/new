@@ -72,8 +72,8 @@ export default function Home() {
           >
             Schedule Free Consultation
           </a>
-
   </div>
+        
 </section>
         </div>
 <section className="text-center py-12 px-6">
