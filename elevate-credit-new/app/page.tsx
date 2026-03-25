@@ -73,9 +73,6 @@ export default function Home() {
             Schedule Free Consultation
           </a>
 
-
-          
-
   </div>
 </section>
         </div>
