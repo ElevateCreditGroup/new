@@ -115,37 +115,39 @@ export default function Home() {
           ))}
         </div>
       </section>
+<section
+  id="intake"
+  className="relative z-10 mx-auto grid max-w-7xl gap-8 px-6 pb-20 md:grid-cols-[1.05fr_0.95fr] md:px-12"
+>
+  <div className="rounded-[28px] border border-white/15 bg-white/10 p-8 backdrop-blur-xl shadow-[0_0_50px_rgba(168,85,247,0.12)]">
+    <p className="mb-3 text-sm uppercase tracking-[0.3em] text-cyan-300">
+      Client Intake
+    </p>
+    <h2
+      className="text-3xl md:text-4xl"
+      style={{ fontFamily: "Times New Roman, serif" }}
+    >
+      Start your credit transformation
+    </h2>
+    <p className="mt-4 max-w-xl text-white/75">
+      Complete our secure intake form so we can review your goals and create a
+      strategic path forward.
+    </p>
 
-      <section
-        id="intake"
-        className="relative z-10 mx-auto grid max-w-7xl gap-8 px-6 pb-20 md:grid-cols-[1.05fr_0.95fr] md:px-12"
+    <div className="mt-8 rounded-2xl border border-white/10 bg-slate-950/40 p-6 text-white/80">
+      <p className="mb-4">
+        Click below to fill out your secure client intake form.
+      </p>
+
+      <a
+        href="https://forms.gle/pDn8qiNQ5jYobPrL7"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="inline-block rounded-full bg-gradient-to-r from-cyan-300 to-fuchsia-400 px-7 py-3 font-semibold text-slate-950 shadow-[0_0_35px_rgba(34,211,238,0.35)] transition hover:scale-[1.02]"
       >
-        <div className="rounded-[28px] border border-white/15 bg-white/10 p-8 backdrop-blur-xl shadow-[0_0_50px_rgba(168,85,247,0.12)]">
-          <p className="mb-3 text-sm uppercase tracking-[0.3em] text-cyan-300">
-            Client Intake
-          </p>
-          <h2
-            className="text-3xl md:text-4xl"
-            style={{ fontFamily: "Times New Roman, serif" }}
-          >
-            Start your credit transformation
-          </h2>
-          <p className="mt-4 max-w-xl text-white/75">
-            Complete our secure intake form so we can review your goals and create a strategic path forward.
-          </p>
-
-          <div className="mt-8 rounded-2xl border border-white/10 bg-slate-950/40 p-6 text-white/80">
-            <p className="mb-4">Click below to fill out your secure client intake form.</p>
-
-            <a
-              href="https://docs.google.com/forms/d/e/1FAIpQLScl6XoWE3JVTY6XME7OILkYkS-OiccHRb4k4r1y3buqs2oEeA/viewform?usp=publish-editor"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-block rounded-full bg-gradient-to-r from-cyan-300 to-fuchsia-400 px-7 py-3 font-semibold text-slate-950 shadow-[0_0_35px_rgba(34,211,238,0.35)] transition hover:scale-[1.02]"
-            >
-              Open Client Intake Form
-            </a>
-          </div>
+        Open Client Intake Form
+      </a>
+    </div>
         </div>
 
         <div className="flex flex-col gap-6">
