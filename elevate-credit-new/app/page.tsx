@@ -73,13 +73,31 @@ export default function Home() {
             Schedule Free Consultation
           </a>
 
-<a
-            href="https://docs.google.com/forms/d/e/1FAIpQLScl6XoWE3JVTY6XME7OILkYkS-OiccHRb4k4r1y3buqs2oEeA/viewform?usp=publish-editor"
-            target="_blank"
-            className="border border-white/20 px-6 py-3 rounded-full"
-          >
-            Request Service
-          </a>
+
+          
+
+  </div>
+</section>
+        </div>
+<section className="text-center py-12 px-6">
+  <h2 className="text-2xl mb-4">Access Your Credit Report</h2>
+  <p className="text-white/70 max-w-xl mx-auto mb-6">
+    Clients are encouraged to obtain their official credit reports directly from AnnualCreditReport.com before beginning services.
+  </p>
+
+  <a
+    href="https://www.annualcreditreport.com"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="inline-block bg-gradient-to-r from-cyan-300 to-fuchsia-400 px-6 py-3 rounded-full text-black font-bold"
+  >
+    Get Your Free Credit Report
+  </a>
+
+  <p className="text-xs text-white/40 mt-4">
+    Elevate Credit Group is not affiliated with AnnualCreditReport.com.
+  </p>
+    </a>
 <section className="px-6 py-16 text-center">
   <h2
     className="text-3xl mb-10"
@@ -143,28 +161,6 @@ export default function Home() {
         Choose Plan
       </a>
     </div>
-
-  </div>
-</section>
-        </div>
-<section className="text-center py-12 px-6">
-  <h2 className="text-2xl mb-4">Access Your Credit Report</h2>
-  <p className="text-white/70 max-w-xl mx-auto mb-6">
-    Clients are encouraged to obtain their official credit reports directly from AnnualCreditReport.com before beginning services.
-  </p>
-
-  <a
-    href="https://www.annualcreditreport.com"
-    target="_blank"
-    rel="noopener noreferrer"
-    className="inline-block bg-gradient-to-r from-cyan-300 to-fuchsia-400 px-6 py-3 rounded-full text-black font-bold"
-  >
-    Get Your Free Credit Report
-  </a>
-
-  <p className="text-xs text-white/40 mt-4">
-    Elevate Credit Group is not affiliated with AnnualCreditReport.com.
-  </p>
 </section>
         <div className="mt-14 grid w-full max-w-5xl gap-6 md:grid-cols-3">
           {[
