@@ -158,6 +158,7 @@ export default function Home() {
       </a>
     </div>
   </div>
+        </section>
           < Pricing is for service assistance and credit education. No specific results are guaranteed.
         </p>
       </div>
