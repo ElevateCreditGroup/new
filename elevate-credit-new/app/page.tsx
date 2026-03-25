@@ -73,12 +73,72 @@ export default function Home() {
             Schedule Free Consultation
           </a>
 
-<a
-            href="https://docs.google.com/forms/d/e/1FAIpQLScl6XoWE3JVTY6XME7OILkYkS-OiccHRb4k4r1y3buqs2oEeA/viewform?usp=publish-editor"
-            target="_blank"
-            className="border border-white/20 px-6 py-3 rounded-full"
-          >
-            Request Service
+<section className="px-6 py-16 text-center">
+  <h2
+    className="text-3xl mb-10"
+    style={{ fontFamily: "Times New Roman, serif" }}
+  >
+    Service Pricing
+  </h2>
+
+  <div className="grid md:grid-cols-3 gap-6 max-w-5xl mx-auto">
+
+    {/* CREDIT ANALYSIS */}
+    <div className="bg-white/5 p-6 rounded-xl border border-white/10">
+      <h3 className="text-cyan-300 text-xl">Credit Analysis</h3>
+      <p className="mt-3 text-white/70">
+        Full credit report review and strategy
+      </p>
+      <p className="mt-4 text-2xl font-bold">$99</p>
+
+      <a
+        href="https://buy.stripe.com/00waEQeHi3Da5iZ406cEw02"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="mt-6 inline-block rounded-full bg-gradient-to-r from-cyan-300 to-fuchsia-400 px-6 py-3 font-bold text-black"
+      >
+        Choose Plan
+      </a>
+    </div>
+
+    {/* DISPUTE ASSISTANCE */}
+    <div className="bg-white/5 p-6 rounded-xl border border-white/10">
+      <h3 className="text-cyan-300 text-xl">Dispute Assistance</h3>
+      <p className="mt-3 text-white/70">
+        Assistance removing inaccurate items
+      </p>
+      <p className="mt-4 text-2xl font-bold">$149</p>
+
+      <a
+        href="https://buy.stripe.com/9B6cMYgPqgpWcLrdAGcEw03"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="mt-6 inline-block rounded-full bg-gradient-to-r from-cyan-300 to-fuchsia-400 px-6 py-3 font-bold text-black"
+      >
+        Choose Plan
+      </a>
+    </div>
+
+    {/* PREMIUM PACKAGE */}
+    <div className="bg-white/5 p-6 rounded-xl border border-white/10">
+      <h3 className="text-cyan-300 text-xl">Premium Package</h3>
+      <p className="mt-3 text-white/70">
+        Full credit support & strategy
+      </p>
+      <p className="mt-4 text-2xl font-bold">$299</p>
+
+      <a
+        href="https://buy.stripe.com/28EbIUdDe6Pm5iZbsycEw04"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="mt-6 inline-block rounded-full bg-gradient-to-r from-cyan-300 to-fuchsia-400 px-6 py-3 font-bold text-black"
+      >
+        Choose Plan
+      </a>
+    </div>
+
+  </div>
+</section>
           </a>
         </div>
 <section className="text-center py-12 px-6">
