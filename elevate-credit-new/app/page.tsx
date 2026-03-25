@@ -157,11 +157,7 @@ export default function Home() {
         Choose Plan
       </a>
     </div>
-  </div>
-        </section>
-          < Pricing is for service assistance and credit education. No specific results are guaranteed.
-        </p>
-      </div>
+ 
   </div>
 </section>
         <div className="mt-14 grid w-full max-w-5xl gap-6 md:grid-cols-3">
