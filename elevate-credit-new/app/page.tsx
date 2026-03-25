@@ -73,8 +73,14 @@ export default function Home() {
             Schedule Free Consultation
           </a>
 
-
-
+<a
+            href="https://docs.google.com/forms/d/e/1FAIpQLScl6XoWE3JVTY6XME7OILkYkS-OiccHRb4k4r1y3buqs2oEeA/viewform?usp=publish-editor"
+            target="_blank"
+            className="border border-white/20 px-6 py-3 rounded-full"
+          >
+            Request Service
+          </a>
+        </div>
 <section className="text-center py-12 px-6">
   <h2 className="text-2xl mb-4">Access Your Credit Report</h2>
   <p className="text-white/70 max-w-xl mx-auto mb-6">
