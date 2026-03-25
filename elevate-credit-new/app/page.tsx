@@ -72,7 +72,6 @@ export default function Home() {
           >
             Schedule Free Consultation
           </a>
-
         </div>
 <section className="text-center py-12 px-6">
   <h2 className="text-2xl mb-4">Access Your Credit Report</h2>
