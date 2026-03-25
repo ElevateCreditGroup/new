@@ -153,11 +153,14 @@ export default function Home() {
         target="_blank"
         rel="noopener noreferrer"
         className="mt-6 inline-block rounded-full bg-gradient-to-r from-cyan-300 to-fuchsia-400 px-6 py-3 font-bold text-black"
-      > Pricing is for service assistance and credit education. No specific results are guaranteed.
+      > 
         Choose Plan
       </a>
     </div>
-
+  </div>
+          < Pricing is for service assistance and credit education. No specific results are guaranteed.
+        </p>
+      </div>
   </div>
 </section>
         <div className="mt-14 grid w-full max-w-5xl gap-6 md:grid-cols-3">
