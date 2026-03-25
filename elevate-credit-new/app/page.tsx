@@ -72,27 +72,14 @@ export default function Home() {
           >
             Schedule Free Consultation
           </a>
-        </div>
-      </section>
-<section className="text-center py-12 px-6">
-  <h2 className="text-2xl mb-4">Access Your Credit Report</h2>
-  <p className="text-white/70 max-w-xl mx-auto mb-6">
-    Clients are encouraged to obtain their official credit reports directly from AnnualCreditReport.com before beginning services.
-  </p>
 
-  <a
-    href="https://www.annualcreditreport.com"
-    target="_blank"
-    rel="noopener noreferrer"
-    className="inline-block bg-gradient-to-r from-cyan-300 to-fuchsia-400 px-6 py-3 rounded-full text-black font-bold"
-  >
-    Get Your Free Credit Report
-  </a>
-
-  <p className="text-xs text-white/40 mt-4">
-    Elevate Credit Group is not affiliated with AnnualCreditReport.com.
-  </p>
-</section>
+<a
+            href="https://docs.google.com/forms/d/e/1FAIpQLScl6XoWE3JVTY6XME7OILkYkS-OiccHRb4k4r1y3buqs2oEeA/viewform?usp=publish-editor"
+            target="_blank"
+            className="border border-white/20 px-6 py-3 rounded-full"
+          >
+            Request Service
+          </a>
 <section className="px-6 py-16 text-center">
   <h2
     className="text-3xl mb-10"
@@ -159,6 +146,26 @@ export default function Home() {
 
   </div>
 </section>
+        </div>
+<section className="text-center py-12 px-6">
+  <h2 className="text-2xl mb-4">Access Your Credit Report</h2>
+  <p className="text-white/70 max-w-xl mx-auto mb-6">
+    Clients are encouraged to obtain their official credit reports directly from AnnualCreditReport.com before beginning services.
+  </p>
+
+  <a
+    href="https://www.annualcreditreport.com"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="inline-block bg-gradient-to-r from-cyan-300 to-fuchsia-400 px-6 py-3 rounded-full text-black font-bold"
+  >
+    Get Your Free Credit Report
+  </a>
+
+  <p className="text-xs text-white/40 mt-4">
+    Elevate Credit Group is not affiliated with AnnualCreditReport.com.
+  </p>
+</section>
         <div className="mt-14 grid w-full max-w-5xl gap-6 md:grid-cols-3">
           {[
             "Luxury client experience",
@@ -193,40 +200,11 @@ export default function Home() {
       strategic path forward.
     </p>
 
-      <section
-        id="intake"
-        className="relative z-10 mx-auto grid max-w-7xl gap-8 px-6 pb-20 md:grid-cols-[1.05fr_0.95fr] md:px-12"
-      >
-        <div className="rounded-[28px] border border-white/15 bg-white/10 p-8 backdrop-blur-xl shadow-[0_0_50px_rgba(168,85,247,0.12)]">
-          <p className="mb-3 text-sm uppercase tracking-[0.3em] text-cyan-300">
-            Client Intake
-          </p>
-          <h2
-            className="text-3xl md:text-4xl"
-            style={{ fontFamily: "Times New Roman, serif" }}
-          >
-            Start your credit transformation
-          </h2>
-          <p className="mt-4 max-w-xl text-white/75">
-            Complete our secure intake form so we can review your goals and create a strategic path forward.
-          </p>
-
-          <div className="mt-8 rounded-2xl border border-white/10 bg-slate-950/40 p-6 text-white/80">
-            <p className="mb-4">Click below to fill out your secure client intake form.</p>
     <div className="mt-8 rounded-2xl border border-white/10 bg-slate-950/40 p-6 text-white/80">
       <p className="mb-4">
         Click below to fill out your secure client intake form.
       </p>
 
-            <a
-              href="https://docs.google.com/forms/d/e/1FAIpQLScl6XoWE3JVTY6XME7OILkYkS-OiccHRb4k4r1y3buqs2oEeA/viewform?usp=publish-editor"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-block rounded-full bg-gradient-to-r from-cyan-300 to-fuchsia-400 px-7 py-3 font-semibold text-slate-950 shadow-[0_0_35px_rgba(34,211,238,0.35)] transition hover:scale-[1.02]"
-            >
-              Open Client Intake Form
-            </a>
-          </div>
       <a
         href="https://forms.gle/pDn8qiNQ5jYobPrL7"
         target="_blank"
@@ -322,6 +300,40 @@ export default function Home() {
           </div>
         </div>
       </section>
+
+    <div className="grid gap-6 md:grid-cols-3">
+
+      <div className="border border-white/10 p-6 rounded-2xl bg-white/5">
+        <h3 className="text-xl text-cyan-300">Credit Analysis</h3>
+        <p className="mt-3 text-white/70">
+          Full review of credit reports with dispute strategy.
+        </p>
+        <p className="mt-4 text-2xl font-bold">$99</p>
+      </div>
+
+      <div className="border border-white/10 p-6 rounded-2xl bg-white/5">
+        <h3 className="text-xl text-cyan-300">Dispute Assistance</h3>
+        <p className="mt-3 text-white/70">
+          Assistance with disputing inaccurate, unverifiable items.
+        </p>
+        <p className="mt-4 text-2xl font-bold">$149</p>
+      </div>
+
+      <div className="border border-white/10 p-6 rounded-2xl bg-white/5">
+        <h3 className="text-xl text-cyan-300">Premium Package</h3>
+        <p className="mt-3 text-white/70">
+          Full-service credit guidance and ongoing support.
+        </p>
+        <p className="mt-4 text-2xl font-bold">$299</p>
+      </div>
+
+    </div>
+
+    <p className="mt-8 text-sm text-white/50">
+      Pricing is for service assistance and credit education. No specific results are guaranteed.
+    </p>
+  </div>
+</section>
 <section className="relative z-10 px-6 py-16 md:px-12 bg-slate-950/60">
   <div className="mx-auto max-w-4xl text-sm text-white/70 space-y-6">
 
