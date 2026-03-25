@@ -301,8 +301,6 @@ export default function Home() {
         </div>
       </section>
 
-    <div className="grid gap-6 md:grid-cols-3">
-
       <div className="border border-white/10 p-6 rounded-2xl bg-white/5">
         <h3 className="text-xl text-cyan-300">Credit Analysis</h3>
         <p className="mt-3 text-white/70">
