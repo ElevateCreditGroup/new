@@ -147,13 +147,13 @@ export default function Home() {
         Full credit support & strategy
       </p>
       <p className="mt-4 text-2xl font-bold">$299</p>
-Pricing is for service assistance and credit education. No specific results are guaranteed.
+
       <a
         href="https://buy.stripe.com/28EbIUdDe6Pm5iZbsycEw04"
         target="_blank"
         rel="noopener noreferrer"
         className="mt-6 inline-block rounded-full bg-gradient-to-r from-cyan-300 to-fuchsia-400 px-6 py-3 font-bold text-black"
-      >
+      > Pricing is for service assistance and credit education. No specific results are guaranteed.
         Choose Plan
       </a>
     </div>
